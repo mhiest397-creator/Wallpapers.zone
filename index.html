@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallpaper Zone</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#111;
+            color:white;
+        }
+
+        header{
+            background:linear-gradient(135deg,#6a11cb,#2575fc);
+            padding:20px;
+            text-align:center;
+            position:sticky;
+            top:0;
+            z-index:100;
+        }
+
+        header h1{
+            font-size:2.5rem;
+        }
+
+        nav{
+            margin-top:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 12px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:#ffd700;
+        }
+
+        .hero{
+            height:60vh;
+            background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=1600')
+            center/cover no-repeat;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+
+        .hero h2{
+            background:rgba(0,0,0,0.6);
+            padding:20px;
+            border-radius:10px;
+            font-size:3rem;
+        }
+
+        section{
+            padding:50px 30px;
+        }
+
+        section h2{
+            margin-bottom:25px;
+            border-left:5px solid #2575fc;
+            padding-left:10px;
+        }
+
+        .wallpaper-grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:20px;
+        }
+
+        .card{
+            background:#1c1c1c;
+            border-radius:12px;
+            overflow:hidden;
+            transition:.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .card img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .card-content{
+            padding:15px;
+        }
+
+        .card-content h3{
+            margin-bottom:10px;
+        }
+
+        .download-btn{
+            display:inline-block;
+            background:#2575fc;
+            color:white;
+            padding:10px 18px;
+            text-decoration:none;
+            border-radius:6px;
+            margin-top:10px;
+        }
+
+        .download-btn:hover{
+            background:#0d5be1;
+        }
+
+        footer{
+            text-align:center;
+            padding:25px;
+            background:#000;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Wallpaper Zone</h1>
+
+    <nav>
+        <a href="#anime">Anime</a>
+        <a href="#nature">Nature</a>
+        <a href="#avengers">Avengers</a>
+        <a href="#cars">Cars</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Download Amazing Wallpapers For Free</h2>
+</div>
+
+<!-- Anime Section -->
+<section id="anime">
+    <h2>Anime Wallpapers</h2>
+
+    <div class="wallpaper-grid">
+
+        <div class="card">
+            <img src="roronoa-zoro-one-5120x2880-18633.jpg">
+            <div class="card-content">
+                <h3>One Piece</h3>
+                <a href=""
+                   download
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="straw-hat-luffy-one-5120x2880-22500.jpg">
+            <div class="card-content">
+                <h3>Straw Hat Luffy</h3>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="sanji-one-piece-4409x3549-16690.jpg">
+            <div class="card-content">
+                <h4>Sanji</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="red-land-one-piece-desktop-lymn0p5sp1u7rf41.jpg">
+            <div class="card-content">
+                <h4>Red Land One Piece</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="monkey-d-luffy-5120x2880-17602.jpeg">
+            <div class="card-content">
+                <h4>Monkey D Luffy</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1916702.jpg">
+            <div class="card-content">
+                <h4>Brook</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1916385.jpg">
+            <div class="card-content">
+                <h4>Roronoa Zoro</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1916382.jpg">
+            <div class="card-content">
+                <h4>Trafalgar</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1916342.jpg">
+            <div class="card-content">
+                <h4>Portgas.D.ACE</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1916335.jpg">
+            <div class="card-content">
+                <h4>Monkey.D.Luffy</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1331400.jpg">
+            <div class="card-content">
+                <h4>One Piece</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="126733-1920x1080-desktop-full-hd-one-piece-wallpaper-image.jpg">
+            <div class="card-content">
+                <h4>One Piece</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>    
+        <div class="card">
+            <img src="125934-2831x1780-desktop-hd-one-piece-background-photo.jpg">
+            <div class="card-content">
+                <h4>One Piece</h4>
+                <a href=""
+                   class="download-btn">
+                   Download
+                </a>
+            </div>
+        </div>    
+        
+      
+       
+    </div>
+</section>
+
+<!-- Nature Section -->
+<section id="nature">
+    <h2>Nature Wallpapers</h2>
+
+    <div class="wallpaper-grid">
+
+        <div class="card">
+            <img src="mountain.jpg">
+            <div class="card-content">
+                <h3>Mountain View</h3>
+                <a href=""
+                class="download-btn">
+                Download
+                </a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="forest.jpg">
+            <div class="card-content">
+                <h3>Forest Wallpaper</h3>
+                <a href=""
+                class="download-btn">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="kristaps-ungurs-owcJsiIK7UU-unsplash.jpg">
+            <div class="card-content">
+                <h3>Forest Wallpaper</h3>
+                <a href=""
+                class="download-btn">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="jeremy-bishop-EwKXn5CapA4-unsplash.jpg">
+            <div class="card-content">
+                <h3>Tree</h3>
+                <a href=""
+                class="download-btn">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3202346-3840x2160-desktop-hd-nature-abstract-wallpaper-photo.jpg">
+            <div class="card-content">
+                <h3>Nature</h3>
+                <a href=""
+                class="download-btn">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3721649-2560x1600-desktop-hd-red-nature-background-image.jpg">
+            <div class="card-content">
+                <h3>Nature</h3>
+                <a href=""
+                class="download-btn">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3721684-3840x2160-desktop-hd-red-nature-wallpaper-image.jpg">
+            <div class="card-content">
+                <h3>Nature</h3>
+                <a href=""
+                class="download-btn">
+                Download
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3046931-2560x1440-desktop-hd-nature-abstract-background-photo.jpg">
+            <div class="card-content">
+                <h3>Nature</h3>
+                <a href=""
+                class="download-btn">
+                Download
+                </a>
+            </div>
+        </div>
+        
+       ▐
+
+    </div>
+</section>
+
+<!-- Avengers Section -->
+<section id="avengers">
+    <h2>Avengers Wallpapers</h2>
+
+    <div class="wallpaper-grid">
+
+        <div class="card">
+            <img src="iron man.jpg">
+            <div class="card-content">
+                <h3>Iron Man</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="spider man.jpg">
+            <div class="card-content">
+                <h3>Spider Man</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="118568-3840x2160-desktop-4k-avengers-background-photo.jpg">
+            <div class="card-content">
+                <h3>Avengers</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="118677-2560x1440-desktop-hd-avengers-wallpaper-image.jpg">
+            <div class="card-content">
+                <h3>Captain America</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="119490-1536x2732-iphone-hd-avengers-background.jpg">
+            <div class="card-content">
+                <h3>Thor</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="120498-1440x2560-mobile-hd-avengers-background-photo.jpg">
+            <div class="card-content">
+                <h3>Ironman</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="120806-1350x2400-samsung-hd-avengers-wallpaper-image.jpg">
+            <div class="card-content">
+                <h3>Thanos</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="324695-3840x2160-desktop-4k-thor-wallpaper-image.jpg">
+            <div class="card-content">
+                <h3>Thor</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="324699-2560x1900-desktop-hd-thor-wallpaper-image.jpg">
+            <div class="card-content">
+                <h3>Thor</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="324750-1080x1920-phone-full-hd-thor-wallpaper.jpg">
+            <div class="card-content">
+                <h3>Thor v/s Hulk</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="324790-3840x2160-desktop-4k-thor-wallpaper.jpg">
+            <div class="card-content">
+                <h3>Avengers</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="324833-2160x3840-phone-4k-thor-wallpaper.jpg">
+            <div class="card-content">
+                <h3>Thor</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="327996-3840x2160-desktop-4k-doctor-strange-background-photo.jpg">
+            <div class="card-content">
+                <h3>Doctor Strange</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="327997-3840x2160-desktop-4k-doctor-strange-wallpaper.jpg">
+            <div class="card-content">
+                <h3>Doctor Strange</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="328064-1920x1080-desktop-1080p-doctor-strange-wallpaper-photo.jpg">
+            <div class="card-content">
+                <h3>Doctor Strange</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="328106-1920x2444-mobile-hd-doctor-strange-wallpaper.jpg">
+            <div class="card-content">
+                <h3>Doctor Strange</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="2064664-2880x1800-desktop-hd-avengers-age-of-ultron-background-image.jpg">
+            <div class="card-content">
+                <h3>Vision age of ultron</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="2148356-3840x2160-desktop-4k-iron-spider-background-image.jpg">
+            <div class="card-content">
+                <h3>Iron Spider</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="2149243-3840x2160-desktop-4k-iron-spider-background-image.jpg">
+            <div class="card-content">
+                <h3>Iron Spider</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="2149803-2160x3840-phone-4k-iron-spider-background-photo.jpg">
+            <div class="card-content">
+                <h3>Iron Spider</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+       ╬
+       
+
+    </div>
+</section>
+
+<!-- Cars Section -->
+<section id="cars">
+    <h2>Cars Wallpapers</h2>
+
+    <div class="wallpaper-grid">
+
+        <div class="card">
+            <img src="bugatti-w16-mistral-7680x4320-26540.jpg">
+            <div class="card-content">
+                <h3>Sports Car</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="mclaren-mcl-hy-gtr-3840x2160-26572.jpg">
+            <div class="card-content">
+                <h3>Luxury Car</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3857444-3840x2160-desktop-hd-roadster-cars-background.jpg">
+            <div class="card-content">
+                <h3>Roadster</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3857415-3840x2160-desktop-hd-roadster-cars-background.jpg">
+            <div class="card-content">
+                <h3>Pagani</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3708921-3840x2160-desktop-hd-modified-cars-background.jpg">
+            <div class="card-content">
+                <h3>Supra</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3708880-3840x2160-desktop-hd-modified-cars-wallpaper-image.jpg">
+            <div class="card-content">
+                <h3>Shelby</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3239242-3840x2160-desktop-hd-modified-cars-wallpaper-image.jpg">
+            <div class="card-content">
+                <h3>Dodge Challenger v/s Pagani</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3239217-3840x2160-desktop-hd-modified-cars-background-image.jpg">
+            <div class="card-content">
+                <h3>Nissan</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3188760-1080x1920-phone-hd-modified-cars-wallpaper-photo.jpg">
+            <div class="card-content">
+                <h3>Dodge Challenger</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3188709-3840x2160-desktop-hd-modified-cars-wallpaper.jpg">
+            <div class="card-content">
+                <h3>Sports Car</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="3118411-3840x2160-desktop-hd-modified-cars-wallpaper.jpg">
+            <div class="card-content">
+                <h3>Sports Car</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1700953-3840x2160-desktop-4k-dodge-challenger-background-photo.jpg">
+            <div class="card-content">
+                <h3>Dodge Challenger</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1700265-2160x3840-phone-4k-dodge-challenger-wallpaper-photo.jpg">
+            <div class="card-content">
+                <h3>Dodge Challenger</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1700121-3840x2160-desktop-4k-dodge-challenger-wallpaper-photo.jpg">
+            <div class="card-content">
+                <h3>Dodge Challenger</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="1700004-3840x2160-desktop-4k-dodge-challenger-background-photo.jpg">
+            <div class="card-content">
+                <h3>Dodge Challenger</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="607720-3840x2160-desktop-4k-sports-car-background.jpg">
+            <div class="card-content">
+                <h3>Bugatti</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="607703-2560x1600-desktop-hd-sports-car-wallpaper-image.jpg">
+            <div class="card-content">
+                <h3>Bugatti</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="607584-1920x1200-desktop-hd-sports-car-wallpaper-photo.jpg">
+            <div class="card-content">
+                <h3>Sports Car</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="607549-2400x1800-desktop-hd-sports-car-wallpaper-photo.jpg">
+            <div class="card-content">
+                <h3>Sports Car</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="193017-2160x3840-phone-4k-bugatti-background.jpg">
+            <div class="card-content">
+                <h3>Bugatti</h3>
+                <a href="#" class="download-btn">Download</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
